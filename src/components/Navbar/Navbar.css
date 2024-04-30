@@ -1,0 +1,99 @@
+/* *{
+    background-color: black;
+}
+.navbar p{
+    color: white;
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.container{
+    /* display: flex; */
+    justify-content: space-between;
+    /* background-color: transparent; */
+    background: linear-gradient(to top,transparent 0%,rgba(0,0,0,0.3) 50%);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.container .navbar .netflix-logo img{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.navbar{
+    display: flex;
+    
+    
+}
+.nav-elements ul{
+    list-style: none;
+    display: flex;
+    margin-left: 5px;
+}
+.nav-elements ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.nav-img{
+    width: 10rem;
+}
+/* .nav-ending{
+    justify-content: flex-end;
+} */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distribute items along the main axis */
+    align-items: center;
+}
+  
+.nav-elements {
+    flex: 1; /* Take up remaining space */
+}
+  
+.nav-ending {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    margin-right: 20px;
+    color: white;    
+}
+.nav-ending .icon{
+    margin: 0px 15px;
+}
+.nav-ending img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.profile .options{
+    display: none;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.profile div{
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+.drop{
+    cursor: pointer;
+}
+.drop:hover .profile .options{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+}
+.scrolled{
+    background-color: black;
+}
